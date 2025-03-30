@@ -1,6 +1,6 @@
 const countValue = document.getElementById('counter');
 
-const increment = ()=>{
+function increment(){
     //get value from UI
     let value = parseInt(countValue.innerText); // countValue.innerText string ke form me return krega, isliye 'parseInt' krrke usko integer me convert krenge
     value += 1;
