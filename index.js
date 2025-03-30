@@ -10,7 +10,7 @@ const increment = ()=>{
 
 const decrement = ()=>{
     //get value from UI
-    let value = parseInt(countValue.innerText); // countValue.innerText string ke form me return krega, isliye 'parseInt' krrke usko integer me convert krenge
+    let value = parseInt(countValue.innerText);
     value -= 1;
     //set value into UI
     countValue.innerText = value;
