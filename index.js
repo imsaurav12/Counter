@@ -15,3 +15,7 @@ const decrement = ()=>{
     //set value into UI
     countValue.innerText = value;
 }
+
+function resetCounter(){
+    countValue.innerText=0;
+}
